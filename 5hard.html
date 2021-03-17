@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#work{
+  font-family:stylus;    
+}
+
+/* #reload{
+  position: fixed;  
+  bottom: 120px; 
+  background-color:white;
+  font-family:stylus;
+  padding: 5px; 5px; 5px; 5px;
+} */
+    </style>
+    <script>
+        var fivehard=["20 seconds elevated leg plank per side", "30 seconds sprint on the spot", "15 pushups", "1 minute of plank", "30 star jumps", "30 squat jacks", "45 seconds of mountain climbers", "20 lunges per side", "45 seconds of side plank per side", "25 burpees", "40 Russian twists", "20 single lef calf raises per side", "45 seconds of V-sit hold"]
+
+for(i=0; i<6; i++){
+  var work=document.createElement("header")
+  work.innerHTML="header";
+  document.body.appendChild(work)
+  work.innerHTML=(fivehard[Math.round(Math.random()*9)])
+}
+    </script>
+</head>
+<body>
+    <h1>Here is your 5 minute, hard workout!</h1>
+<h2>Rest for 10 seconds between exercises, Enjoy!</h2>
+<!-- <button onClick="history.go(0)" id="reload">New Workout</button> -->
+</body>
+</html>

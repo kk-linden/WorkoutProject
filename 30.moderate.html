@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#work{
+  font-family:stylus;
+    
+}
+/* #reload{
+  position: fixed;  
+  bottom: 12px; 
+  background-color:white;
+  font-family:stylus;
+  padding: 5px; 5px; 5px; 5px;
+} */
+    </style>
+    <script>
+var thirtymoderate=["50 high knees", "20 chair step-ups per side", "35 plank shoulder touches", "30 crunches", "15 inchworms", "15 burpees", "15 dead bugs per side", "45 seconds of quick feet", "30 seconds of squat hold", "45 seconds of plank", "20 seconds of side plank per side", "50 of mountain climbers", "25 single leg calf raises per side","3 squat and pulse for 10 seconds", "25 star jumps", "45 jumping jacks", "15 single leg glute bridges per side", "30 plank leg jacks", "25 jumping squats", "10 pushups", "15 inchworms", "45 seconds of wall sit", "40 seconds of sprinting on the spot", "45 seconds of fast feet"]
+ 
+ for(i=0; i<10; i++){
+   var work=document.createElement("header")
+   work.innerHTML="header";
+   document.body.appendChild(work)
+   work.innerHTML=(thirtymoderate[Math.round(Math.random()*12)])
+ }
+    </script>
+</head>
+<body>
+    <h1>Here is your 30 minute, moderate workout!</h1>
+<h2>Rest for 10 seconds between exercises <h2>
+<h2>Rest for 30 seconds and drink water between repetitions</h2> <h2>Repeat 3 times, Enjoy!</h2>
+<!-- <button onClick="history.go(0)" id="reload">New Workout</button> -->
+</body>
+</html>

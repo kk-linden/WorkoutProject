@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#work{
+  font-family:stylus;
+    
+}
+/* #reload{
+  position: fixed;  
+  bottom: 12px; 
+  background-color:white;
+  font-family:stylus;
+  padding: 5px; 5px; 5px; 5px;
+} */
+    </style>
+    <script>
+        var fifteenhard=["30 burpees", "20 seconds of raised leg plank per side", "25 seconds of side plank per side", "40 Russian twists", "35 star jumps", "25 jump squats", "15 single leg glute bridges per side", "15 pushups", "45 seconds sprint on the spot", "20 alternating lunges", "15 single leg calf raises per side", "20 burpees", "20 elevated split squats per side", "45 seconds of V-sit hold", "45 seconds of four point hold"]
+ 
+ for(i=0; i<10; i++){
+   var work=document.createElement("header")
+   work.innerHTML="header";
+   document.body.appendChild(work)
+   work.innerHTML=(fifteenhard[Math.round(Math.random()*12)])
+ }
+    </script>
+</head>
+<body>
+    <h1>Here is your 15 minute, hard workout!</h1>
+<h2>Rest for 10 seconds between exercises <h2>
+<h2>Rest for 30 seconds and drink water between repetitions</h2> <h2>Repeat 2 times, Enjoy!</h2>
+<!-- <button onClick="history.go(0)" id="reload">New Workout</button> -->
+</body>
+</html>

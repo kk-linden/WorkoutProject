@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#work{
+  font-family:stylus;
+    
+}
+/* #reload{
+  position: fixed;  
+  bottom: 12px; 
+  background-color:white;
+  font-family:stylus;
+  padding: 5px; 5px; 5px; 5px;
+} */
+    </style>
+    <script>
+var thirtyhard=["30 seconds of single leg plank per side", "45 seconds of side plank per side", "45 seconds of four point hold", "35 seconds of sprinting on the spot", "10 pistol squats per side", "25 push ups", "25 chair step-ups per side", "40 plank leg jacks", "35 star jumps", "30 seconds of single leg glute bridge per side", "20 inchworms with pushup", "45 skaters", "35 alternating lunges", "20 plank climbers per side", "30 burpees", "45 crunches", "45 seconds of V-sit hold", "45 seconds of four point hold", "45 seconds of lateral bear crawl"]
+ 
+ for(i=0; i<10; i++){
+   var work=document.createElement("header")
+   work.innerHTML="header";
+   document.body.appendChild(work)
+   work.innerHTML=(thirtyhard[Math.round(Math.random()*12)])
+ }
+    </script>
+</head>
+<body>
+    <h1>Here is your 30 minute, moderate workout!</h1>
+    <h2>Rest for 10 seconds between exercises <h2>
+    <h2>Rest for 30 seconds and drink water between repetitions</h2> <h2>Repeat 3 times, Enjoy!</h2>
+    <!-- <button onClick="history.go(0)" id="reload">New Workout</button> -->
+</body>
+</html>

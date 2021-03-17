@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #work{
+  font-family:stylus;
+    
+}
+/* #reload{
+  position: fixed;  
+  bottom: 12px; 
+  background-color:white;
+  font-family:stylus;
+  padding: 5px; 5px; 5px; 5px;
+} */
+    </style>
+    <script>
+    var fifteeneasy=["30 seconds wall sit", "20 calf raises", "10 alternating lunges", "30 seconds plank", "30 seconds high knees", "30 jumping jacks", "10 knee pushups", "20 crunches", "15 squats", "35 small forward arm circles", "30 seconds jog on the spot", "20 seconds sprint on the spot", "20 situps", "10 open the gates per side", "10 close the gates per side", "30 seconds of fast feet", "20 leg raises", "20 seconds sprint on the spot", "25 small backward arm circles", "30 jog on the spot", "15 seconds of side plack per side", "15 mountain climbers", "30 big arm circles", "15 standing bicycle crunches", "15 wall pushups", "20 arm extensions to the sides", "20 arm extensions upward", "25 bird dogs", "10 plank shoulder taps per side", "10 bear crawl steps", "15 inchworms", "15 chair tricep dips", "10 table top leg lifts per side", "30 seconds of jumping in place", "10 modified burpees"]
+
+for(i=0; i<9; i++){
+  var work=document.createElement("header")
+  work.innerHTML="header";
+  document.body.appendChild(work)
+  work.innerHTML=(fifteeneasy[Math.round(Math.random()*12)])
+}
+    </script>
+</head>
+<body>
+    <h1>Here is your 15 minute, easy workout!</h1>
+    <h2>Rest for 10 seconds between exercises <h2>
+    <h2>Rest for 30 seconds and drink water between repetitions</h2> <h2>Repeat 2 times, Enjoy!</h2>
+    <!-- <button onClick="history.go(0)" id="reload">New Workout</button> -->
+</body>
+</html>

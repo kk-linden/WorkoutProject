@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#work{
+  font-family:stylus;    
+}
+
+/* #reload{
+  position: fixed;  
+  bottom: 120px; 
+  background-color:white;
+  font-family:stylus;
+  padding: 5px; 5px; 5px; 5px;
+} */
+    </style>
+    <script>
+var fivemoderate=["45 seconds plank", "30 crunches", "45 jumping jacks", "30 plank shoulder touches", "5 pushups", "3 squat and pulse for 10 seconds", "45 seconds high knees", "45 seconds mountain climbers", "20 seconds of side plank per side", "30 seconds sprint on the spot", "15 skaters", "45 seconds of wall sit", "20 glute bridges", "15 lunges per side", "30 Russian twists", "10 single leg calf raises per side"]
+
+for(i=0; i<6; i++){
+  var work=document.createElement("header")
+  work.innerHTML="header";
+  document.body.appendChild(work)
+  work.innerHTML=(fivemoderate[Math.round(Math.random()*9)])
+}
+    </script>
+</head>
+<body>
+    <h1>Here is your 5 minute, moderate workout!</h1>
+<h2>Rest for 10 seconds between exercises, Enjoy!</h2>
+<!-- <button onClick="history.go(0)" id="reload">New Workout</button> -->
+</body>
+</html>

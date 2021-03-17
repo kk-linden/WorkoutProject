@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#work{
+  font-family:stylus; 
+}
+
+    </style>
+    <script>
+var fiveeasy=["20 sit-ups", "10 squats", "30 second wall sit", "35 small arm circles", "20 calf raises", "10 lunges per side", "30 seconds of fast feet", "20 leg raises", "30 seconds jog on the spot", "5 knee pushups","20 seconds sprint on the spot", "10 open the gates per side", "10 close the gates per side", "20 glute bridges"]
+
+for(i=0; i<6; i++){
+  var work=document.createElement("header");
+  work.innerHTML="header";
+  document.body.appendChild(work);
+  work.innerHTML=(fiveeasy[Math.round(Math.random()*9)]);
+}
+    </script>
+</head>
+<body>
+    <h1>Here is your 5 minute, easy workout!</h1>
+    <h2>Rest for 10 seconds between exercises, Enjoy!</h2>
+</body>
+</html>
